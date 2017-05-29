@@ -1,0 +1,9 @@
+<div class="container" style="margin-top:50px">
+    <h3 align="center">신이 <%= @name %>를 만들 때.</h3><br/><br/>
+    <h2 align="center">
+        <img src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/KKm/image/QVXxC8yCJGZhsXjJGvCUhUnEr14.PNG"><br>
+        <% @result.each_with_index do |r,index| %>
+            <%= r %> <%= @spoon[index] %> 스푼!..    
+        <% end %>
+    </h2>
+</div>
